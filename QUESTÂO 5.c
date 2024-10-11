@@ -1,16 +1,15 @@
 #include<stdio.h>
 
 int main(){
-	int tamanho = 0;
-	int arr[tamanho];
+	int tamanho = 10;
+	int arr[10];
 	int num;
 	int i, j, chave;
 	int meio;
 	int procurado;
 	int achou = 0;
 	
-	printf("Digite o tamanho do array: ");
-	scanf("%d", &tamanho);
+	printf("Iremos criar um array com 10 elementos (numero pre definido pra nao trabalhar com alocacao dinamica):\n ");
 	
 	
 	for(i = 0; i < tamanho; i++){
